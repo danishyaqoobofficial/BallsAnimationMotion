@@ -11,23 +11,412 @@
             box-sizing: border-box;
         }
         main{
-            display: flex;
-            align-items: center;
-            justify-content: center;
             background-color: #000;
             height: 100vh;
             width: 100vw;
+            padding: 0px 62px;
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
         }
         .first_ball{
-            
+            border-radius: 50px;
+            background-color: red;
+            height: 26px;
+            width: 26px;
+            animation-name: BallFirst;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes BallFirst {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+
+        .third_ball{
+            border-radius: 50px;
+            background-color: rgb(0, 255, 179);
+            height: 26px;
+            width: 26px;
+            animation-name: third_ball;
+            animation-duration:1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes third_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .forth_ball{
+            border-radius: 50px;
+            background-color: rgb(255, 0, 247);
+            height: 26px;
+            width: 26px;
+            animation-name: forth_ball;
+            animation-duration: 1.3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes forth_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .fifth_ball{
+            border-radius: 50px;
+            background-color: rgb(255, 191, 0);
+            height: 26px;
+            width: 26px;
+            animation-name: five_ball;
+            animation-duration: 1.4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes five_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .six_ball{
+            border-radius: 50px;
+            background-color: rgb(0, 255, 204);
+            height: 26px;
+            width: 26px;
+            animation-name: six_ball;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes six_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .seven_ball{
+            border-radius: 50px;
+            background-color: rgb(255, 255, 0);
+            height: 26px;
+            width: 26px;
+            animation-name: seven_ball;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes seven_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .eight_ball{
+            border-radius: 50px;
+            background-color: rgb(0, 4, 255);
+            height: 26px;
+            width: 26px;
+            animation-name: eight_ball;
+            animation-duration: 1.7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes eight_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .nine_ball{
+            border-radius: 50px;
+            background-color: rgb(0, 255, 229);
+            height: 26px;
+            width: 26px;
+            animation-name: nine_ball;
+            animation-duration: 1.8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes nine_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .ten_ball{
+            border-radius: 50px;
+            background-color: rgb(255, 0, 115);
+            height: 26px;
+            width: 26px;
+            animation-name: ten_ball;
+            animation-duration: 1.9s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes ten_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .eleven_ball{
+            border-radius: 50px;
+            background-color: rgb(238, 0, 255);
+            height: 26px;
+            width: 26px;
+            animation-name: eleven_ball;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes eleven_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .t_ball{
+            border-radius: 50px;
+            background-color: rgb(243, 243, 243);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball;
+            animation-duration: 1.4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }  
+        .t_ball1{
+            border-radius: 50px;
+            background-color: rgb(69, 1, 1);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball1;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball1 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }       
+        
+        .t_ball2{
+            border-radius: 50px;
+            background-color: rgb(56, 245, 97);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball2;
+            animation-duration: 1.3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball2 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+
+        .t_ball3{
+            border-radius: 50px;
+            background-color: rgb(146, 15, 233);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball3;
+            animation-duration: 1.4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball3 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+
+        .t_ball4{
+            border-radius: 50px;
+            background-color: rgb(44, 72, 93);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball4;
+            animation-duration: 1.1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball4 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .t_ball5{
+            border-radius: 50px;
+            background-color: rgb(233, 177, 45);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball5;
+            animation-duration: 1.9s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball5 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .t_ball6{
+            border-radius: 50px;
+            background-color: rgb(98, 98, 98);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball6;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball6 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
+        }
+        .t_ball7{
+            border-radius: 50px;
+            background-color: rgb(70, 218, 203);
+            height: 26px;
+            width: 26px;
+            animation-name: t_ball7;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        }
+        @keyframes t_ball7 {
+            from{
+                transform: translateY(100px);
+            }
+            to{
+                transform: translateY(900px);
+            }
         }
     </style>
 </head>
 <body>
     <main>
         <section>
-            <div class="first_ball">
-
+            <div class="main">
+                <div class="first_ball"></div>
+                <div class="second_ball"></div>
+                <div class="third_ball"></div>
+                <div class="forth_ball"></div>
+                <div class="fifth_ball"></div>
+                <div class="six_ball"></div>
+                <div class="seven_ball"></div>
+                <div class="eight_ball"></div>
+                <div class="nine_ball"></div>
+                <div class="ten_ball"></div>
+                <div class="eleven_ball"></div>
+                <div class="t_ball"></div>
+                <div class="t_ball1"></div>
+                <div class="t_ball2"></div>
+                <div class="t_ball3"></div>
+                <div class="t_ball12"></div>
+                <div class="t_ball4"></div>
+                <div class="t_ball5"></div>
+                <div class="t_ball6"></div>
+                <div class="t_ball7"></div>
+                <div class="t_ball8"></div>
+                <div class="t_ball9"></div>
+                <div class="t_ball10"></div>
+                <div class="t_ball11"></div>
             </div>
         </section>
     </main>
